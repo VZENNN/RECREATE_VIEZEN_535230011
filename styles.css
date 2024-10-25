@@ -1,0 +1,81 @@
+/* General Background and Text */
+body {
+    background-color: #EEEEEE; /* Light gray background for general sections */
+    color: #3B1E54; /* Dark purple for main text color */
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Headings */
+  h1, h2, h3 {
+    color: #3B1E54; /* Dark purple */
+  }
+  
+  .text-muted, .text-secondary {
+    color: #9B7EBD; /* Light purple for muted/secondary text */
+  }
+  
+  /* Navbar */
+  .navbar {
+    background-color: #3B1E54; /* Dark purple for navbar */
+  }
+  
+  .navbar-brand, .navbar-nav .nav-link {
+    color: #EEEEEE; /* Light gray text on navbar */
+  }
+  
+  .navbar-toggler {
+    background-color: #D4BEE4; /* Lavender for toggler icon */
+  }
+  
+  /* Buttons */
+  .btn-custom, .btn-plan, .btn-gradient {
+    background-color: #9B7EBD; /* Light purple for primary buttons */
+    color: #EEEEEE; /* Light gray text on buttons */
+    border: none;
+  }
+  
+  .btn-custom:hover, .btn-plan:hover, .btn-gradient:hover {
+    background-color: #3B1E54; /* Dark purple on hover */
+    color: #EEEEEE;
+  }
+  
+  /* Pricing Plan */
+  .pricing-plan {
+    background-color: #D4BEE4; /* Lavender for pricing cards */
+    color: #3B1E54; /* Dark purple for text */
+    border: 1px solid #9B7EBD; /* Light purple border */
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .highlighted-plan {
+    background-color: #9B7EBD; /* Light purple background for featured plan */
+    color: #EEEEEE; /* Light gray text for highlighted plan */
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #3B1E54; /* Dark purple background for footer */
+    color: #EEEEEE; /* Light gray text in footer */
+  }
+  
+  footer a {
+    color: #D4BEE4; /* Lavender links in footer */
+  }
+  
+  footer a:hover {
+    color: #9B7EBD; /* Light purple for hover effect on footer links */
+  }
+  
+  /* Form Inputs */
+  input[type="text"], input[type="email"], input[type="date"], input[type="tel"], textarea, select {
+    background-color: #EEEEEE; /* Light gray background for input fields */
+    border: 1px solid #9B7EBD; /* Light purple border */
+    color: #3B1E54; /* Dark purple text */
+  }
+  
+  input[type="text"]:focus, input[type="email"]:focus, input[type="date"]:focus, input[type="tel"]:focus, textarea:focus, select:focus {
+    border-color: #3B1E54; /* Dark purple border on focus */
+    box-shadow: none;
+  }
+  
